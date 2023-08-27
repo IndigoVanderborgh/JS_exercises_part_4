@@ -1,4 +1,4 @@
-// Let & const exercise
+// Let & const exercises
 
 // SETTING THE STAGE
 let player = "Per"
