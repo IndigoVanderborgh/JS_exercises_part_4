@@ -17,7 +17,7 @@ const janeBtn = document.getElementById("jane-btn")
 janeBtn.addEventListener("click", function() {
     console.log(data) 
     // if we want janes data we use: 
-    // console.log(data[0])
+    // console.log(data[0]) --> logs out player name and score
     // if we want janes score and only her score (no name) we use: 
     // console.log(data[0].score)
 })
