@@ -6,8 +6,10 @@
 
 let myCourses = ["Learn CSS Animations", "UI Design Fundamentals", "Intro to Clean Code"]
 
-function logArray(myCourses) {
-    console.log(myCourses[])
+function logItems(arr) {
+    for (let i = 0; i < arr.length; i++)
+        console.log(arr[i])
 }
 
-logArray(myCourses[])
+logItems(myCourses)
+
