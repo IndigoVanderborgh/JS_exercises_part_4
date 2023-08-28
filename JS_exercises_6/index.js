@@ -15,7 +15,23 @@ function renderImages() {
     for (let i = 0; i < imgs.length; i++) {
         imgsDOM += `<img alt="Employee in the company" class="team-img" src="${imgs[i]}">`
     }
-    container.innerHTML - imgsDOM
+        // for (let imageString of imgs) { // this is another way to tackle it
+        //     imgsDOM += `<img alt="Employee in the company" class="team-img" src="${imageString}">`
+        // }
+    container.innerHTML = imgsDOM
 }
 
 renderImages()
+
+
+// simplified version of it:
+
+let a = [ 'stanley' , 'wesley' , 'indigo']
+
+ // and we want to produce in the console: "stanley, wesley, indigio"
+
+let baseString = ""
+for (let i = 0; i < a.length; i ++) {
+    baseString += `${a[i]}, `
+}
+console.log(baseString)
