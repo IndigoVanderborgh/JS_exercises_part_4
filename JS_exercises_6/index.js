@@ -11,7 +11,7 @@ const imgs = [
 const container = document.getElementById("container")
 
 function renderImages() {
-    let imgsDOM = ""
+    let imgsDOM = "" // so we can concactonate line 16, as this will contain all three images and not load the function 3 times
     for (let i = 0; i < imgs.length; i++) {
         imgsDOM += `<img alt="Employee in the company" class="team-img" src="${imgs[i]}">`
     }
